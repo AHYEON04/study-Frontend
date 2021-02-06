@@ -3,7 +3,7 @@ h1 {
 }
 
 div {
-    font-size: 30px;
+    font-size: 50px;
     text-align: center;
 }
 
@@ -14,28 +14,24 @@ div {
 
 #main #contents {
     min-height: 500px; 
-    background-color:#00ffff; 
+    background-color:#fff; 
     margin-right: 10px;
 }
 
 #main #sidebar {
     min-height: 500px; 
-    background-color: #00bfff;
-}
-
-#footer {
-    margin-top: 10px; 
-    background-color: #00bfff;
+    background-color: #FAE882;
 }
 
 
-@media (max-width:600px){ /*가로 너비가 600px 이하일 때 아래 스타일 적용*/
+
+@media (max-width:500px){ /*가로 너비가 600px 이하일 때 아래 스타일 적용*/
     #main {
         display: block;    
     }
 
     #main #contents {  
-        margin-bottom: 10px; 
+        margin-bottom: 5px; 
         margin-right: 0px;
     }
     #main #sidebar {
