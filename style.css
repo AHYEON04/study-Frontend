@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: 'Source Sans Pro';
 }
 
 a{
@@ -38,5 +39,9 @@ a{
     list-style:none;
     color: white;
     display: flex;
+}
+
+.navbar__icons li{
+    padding: 8px 12px;
 }
 
