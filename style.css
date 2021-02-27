@@ -78,5 +78,9 @@ a{
         padding: 8px 12px;
     }
 
+    .navbar__toogleBtn{
+        display: block;
+    }
+
 }
 
