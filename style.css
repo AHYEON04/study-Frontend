@@ -62,6 +62,11 @@ a{
         padding: 8px 12px;
     }
 
+    .navbar__manu li:hover{
+        background-color: coral;
+        border-radius: 4px;
+    }
+
     .navbar__icons{
         justify-content: center;
         width: 100%;
