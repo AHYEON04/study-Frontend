@@ -68,8 +68,10 @@ a{
     }
 
     .navbar__icons{
-        justify-content: center;
-        width: 100%;
+        list-style:none;
+        color:white;
+        display:flex;
+        padding-left: 0px;
     }
 
 }
