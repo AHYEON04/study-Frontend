@@ -74,5 +74,9 @@ a{
         padding-left: 0px;
     }
 
+    .navbar__icons li{
+        padding: 8px 12px;
+    }
+
 }
 
