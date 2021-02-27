@@ -59,13 +59,13 @@ a{
     }
 
     .navbar__menu li{
-        width: 100%;
-        text-align: center;
+        padding: 8px 12px;
     }
 
     .navbar__icons{
         justify-content: center;
         width: 100%;
     }
+
 }
 
