@@ -45,6 +45,14 @@ a{
     padding: 8px 12px;
 }
 
+.navbar__toogleBtn{
+    display:none;
+    position: absolute;
+    right: 32px;
+    font-size:24px;
+    color:coral;
+}
+
 @media screen and(max-width: 768px){
     .navbar {
         flex-direction: column;
@@ -67,18 +75,7 @@ a{
         border-radius: 4px;
     }
 
-    .navbar__icons{
-        list-style:none;
-        color:white;
-        display:flex;
-        padding-left: 0px;
-    }
-
-    .navbar__icons li{
-        padding: 8px 12px;
-    }
-
-    .navbar__toogleBtn{
+   .navbar__toogleBtn{
         display: block;
     }
 
