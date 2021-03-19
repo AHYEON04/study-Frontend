@@ -1,53 +1,16 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+
+
 .logo{
     display: block;
     width: 300px;
     height: 150px;
     object-fit: cover;
-    margin: 0 auto;
+    margin: 100px;
+    
+    
 }
 
-input{
-    width:90%;
-    border-color: #bbb;
-    border-radius: 16px;
-    border-width: 1px;
-    padding: 6px 0 6px 0;
-    margin: 6px;
-}
-
-.fasfa{
-    position: relabtive;
-}
-
-.fa-search{
-    position: absolute;
-    left: 7%;
-    top: 35%;
-}
-
-.fa-keyboard{
-    position: absolute;
-    right: 12%;
-    top: 35%;
-}
-
-.fa-microphone{
-    position: absolute;
-    right: 8%;
-    top:35%;
-}
-
-.sectionthree {
-    margin-top: 5%;
-    margin-right: 1%;
-    margin-left: 1%;  border-radius: 5px;
-    background-color: f9f9fa;
-    border: 0;
-    padding: 2% 4%;
-  }
-  
-.last {
-    margin: 14px 14px;
-    font-size: 15px;
-  }
-  
